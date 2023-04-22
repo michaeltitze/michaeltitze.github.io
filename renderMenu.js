@@ -9,7 +9,7 @@ let navMenu = '<ul class="menu">';
 const renderMenu = () => {
     const menuItems = ['Home','Projects','About','Angebot', 'Kontakt'];    
     for(let i=0; i<menuItems.length; i++){
-        navMenu += `<li><a class="nav-link" href="/#${menuItems[i]}">${menuItems[i]}</a></li>`;
+        navMenu += `<li class="menu-punkt${i}"><a class="nav-link" href="/#${menuItems[i]}">${menuItems[i]}</a></li>`;
     }
 }
 

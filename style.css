@@ -16,21 +16,29 @@
 
 /* ----- General ------- */
 
+.wrapper{
+    background: radial-gradient(#123456,#122448);
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
 section{
     height: 100vh;
-    width: 100%;
-    
+    width: 50%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fefefe;
+
 }
 
-#Home{
-    background: radial-gradient(#123456,#122448);
-}
-.about-section{
-    background: linear-gradient(#fefefe,#fedcba);
-}
 
-.angebot-section{
-    background: linear-gradient(#fedcba,#fefefe);
+.li-active{
+    background-color: #122448;
+    color: white;
 }
 
 
@@ -40,6 +48,7 @@ header{
     position: fixed;
     width: 100%;
     box-shadow: rgba(0,0,0,0.3) 0 0 2px, rgba(0,0,0,0.3) 0 0 6px;
+    z-index: 30;
 }
 .nav-bar{
     background-color: var(--background-main);
