@@ -14,6 +14,8 @@ var screenHeight = window.innerHeight
 const documentHeight = document.documentElement.scrollHeight;
 
 
+
+
 window.addEventListener("resize", function() {
     screenHeight = window.innerHeight;
     screenWidth = window.innerWidth;
@@ -21,6 +23,9 @@ window.addEventListener("resize", function() {
     console.log("Screen width: " + screenWidth);
 });
 
+window.addEventListener("DOMContentLoaded",()=>{
+    imageContainer.style.backgroundColor = '#123456';
+})
 
 window.addEventListener('scroll',()=>{
     const scrolled = window.scrollY;
