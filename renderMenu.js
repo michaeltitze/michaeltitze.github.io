@@ -1,6 +1,6 @@
 const bodyContent = document.querySelector('body');
 let navBar = `<header><nav class='nav-bar'>`;
-let navLogo = '<a class="logo-text" href="https://michaeltitze.github.io/#home">michaelTitze</a>';
+let navLogo = '<a class="logo-text" href="https://michaeltitze.github.io/#Home">michaelTitze</a>';
 let navMenu = '<ul class="menu">';
 
 
