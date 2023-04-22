@@ -22,36 +22,15 @@ section{
     
 }
 
-#blob1{
-
-    /* transition: 2s ease-in-out; */
-    background: linear-gradient(white,black);
-    /*animation: rotate 5s linear infinite; */
-}
-
-
-@keyframes rotate{
-    0%{
-        transform: rotate(0deg) scale(1);
-    }
-
-    50%{
-        transform: rotate(10deg) scale(1.5);
-    }
-
-    100%{
-        transform: rotate(0deg) scale(1);
-    }
-}
- 
-
-
-
 #Home{
     background: radial-gradient(#123456,#122448);
 }
-section:nth-of-type(3){
-    background: linear-gradient(#fefefe,#c3bc3b);
+.about-section{
+    background: linear-gradient(#fefefe,#fedcba);
+}
+
+.angebot-section{
+    background: linear-gradient(#fedcba,#fefefe);
 }
 
 
@@ -182,22 +161,16 @@ menu.li:hover, menu.li:hover > a{
 
     .line.active{
         background-color: white;
-
     }
 
     li a:hover{
        transform: scale(1.1);
     }
 
-
-
-
-
 }
 
 
 /* ------- SVG -------- */
-
 
 #blob2{
     position: absolute;
