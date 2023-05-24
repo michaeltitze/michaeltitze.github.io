@@ -33,3 +33,7 @@
 .adress__box p{
     text-align: center;
 }
+
+.phone__link,.email__link{
+    color: #fedcba;
+}
