@@ -2,7 +2,6 @@
         background: radial-gradient(var(--primary-color),#122448);
         width: 100%;
         display: flex;
-
         justify-content: center;
         align-items: center;
         color: #fefefe;
