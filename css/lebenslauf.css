@@ -1,0 +1,101 @@
+.lebenslauf__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.lebenslauf__headline{
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.lebenslauf__sheet{
+    width: 874px;
+    background-color: #fefefe;
+    box-shadow: rgba(0,0,0,0.3) 0 15px 30px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.lebenslauf__sheet a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.category__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+    color: #222;
+
+    
+}
+
+.category__title-container{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start ;
+}
+
+.category__title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.info__container{
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.info__section{
+    margin: 0 0 40px 0;
+}
+
+.info__description{
+    margin: 5px 0 5px 0;
+    
+}
+
+.info__date{
+    color: #999;
+    font-size: 0.9em;
+    margin: 5px 0 5px 0;
+}
+
+@media screen and (max-width: 849px){
+    .category__wrapper{
+
+        justify-content: center;
+        padding: 10px;
+}
+
+    .category__title-container{
+        width: 95% !important;
+        justify-content: flex-start;
+    }
+
+    .lebenslauf__sheet{
+        width: 95% !important;
+    }
+
+}
+
+@media screen and (max-width: 625px){
+    .info__container{
+        width: 95% !important;
+}
+
+    .category__title{
+        text-align: left;
+    }
+
+}
+

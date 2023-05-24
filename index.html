@@ -1,25 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michaels Github Page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animated.css">
+
 </head>
 <body>
     <script src="renderMenu.js"></script>
 
-    <div class="wrapper"></div>
-    <div class="image-section">
-        <div class="image-container"></div></div>
+    <div class="welcome__wrapper" id="Home"></div>
+    <section class="welcome__section">
+        <div class="image__container">
+            <img class="foto__michael" src="/img/michi-compressed.jpg" alt="Foto of Michael Titze"/>
+        </div>
+        <div class="headline__section">
+            <h1>Michael Titze</h1>
+            <p>Frontendeveloper/Designer</p>
+        </div>
+       </section>
+    <section class="lebenslauf__section" id="Lebenslauf">
+        <h2 class="lebenslauf__headline">Lebenslauf</h2>
+        <div class="lebenslauf__sheet">
+            <div class="category__wrapper">
+                <div class="category__title-container">
+                    <h3 class="category__title">Berufserfahrung</h3>
+                </div>
+                <div class="info__container">
+                    <div class="info__section">
+                        <h4 class="info__title">2K Capital GmbH (Webdeveloper/Designer/Content-creator)</h4>
+                        <p class="info__date">April 2020 - Heute,München</p>
+                        <p class="info__description">Diverse Programmieraufgaben <a href="https://mk-vc.com">mk-vc.com</a></p>
+                        <p class="info__description">Entwicklung von Finanztools zur Simulation von Daten mit chart.js</p>
+                        <p class="info__description">Erstellung von Werbematerial wie Broschüren mit Canva</p>
+                        <p class="info__description">Erstellung von Info-Grafiken für Linkedin-Postings mit Affinity Desinger</p>
+                    </div>
+                    <div class="info__section">
+                        <h4 class="info__title">Motel a Miio GmbH</h4>
+                        <p class="info__date">September 2019 - August 2021, München</p>
+                        <p class="info__description">Verantwortlich für Jahresumsätze im 6-7-Stelligen bereich.</p>
+                        <p class="info__description">Verantwortlich für Schichtpläne</p>
+                        <p class="info__description">Organisation von Lieferungen</p>
+                        <p class="info__description">Schulung neuer Mitarbeiter:innen</p>
+                    </div>
+                    <div class="info__section">
+                        <h4 class="info__title">Contact Lens and Visual Optics Laboratory/Internship</h4>
+                        <p class="info__date">Februar 2016 - Juli 2016, Brisbane, Australien</p>
+                        <p class="info__description">Entwicklung einer GUI in Matlab, zur Ansteuerung zweier Kameras und Auswertung der Aufnahmen mit Digital-Image-Proccessing Verfahren</p>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </div>
 
-    <section class="home-section" id="Home"><h1>Hello!</h1></section>
-    <section class="project-section" id="Projects"><h2>Projects</h2></section>
-    <section class="about-section" id="About"><h2>About</h2></section>
-    <section class="angebot-section" id="Angebot"><h2>Angebot</h2></section>
-    <section class="kontakt-section" id="Kontakt"><h2>Kontakt</h2></section>
+            <div class="category__wrapper">
+                <div class="category__title-container">
+                    <h3 class="category__title">Bildungsweg</h3>
+                </div>
+                <div class="info__container">
+                    <div class="info__section">
+                        <h4 class="info__title">Hochschule München</h4>
+                        <p class="info__date">März 2017 - März 2021, München</p>
+                        <p class="info__description">Studium regenerative Energien mit Scrum-Projekt</p>
+                    </div>
+                    <div class="info__section">
+                        <h4 class="info__title">Hochschule München</h4>
+                        <p class="info__date">September 2013 - August 2017, München</p>
+                        <p class="info__description">Studium-Electro und Informationstechnik mit Auslandssemester in Australien</p>
+                    </div>
+                    <div class="info__section">
+                        <h4 class="info__title">Hochschule München</h4>
+                        <p class="info__date">September 2012 - September 2013,München</p>
+                        <p class="info__description">Studium Papier- und Verpackungstechnik</p>
+
+                    </div>
+                    <div class="info__section">
+                        <h4 class="info__title">Fachoberschule Bad Tölz</h4>
+                        <p class="info__date">September 2009 - Juni 2013, Bad Tölz</p>
+                        <p class="info__description">Fachabitur Wirtschaftszweig</p>
+
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="category__wrapper">
+                <div class="category__title-container">
+                    <h3 class="category__title">Dev-Projekte
+                    </h3>
+                </div>
+                <div class="info__container">
+                    <div class="info__section">
+                        <h4 class="info__title">Re-Design <a href="https://mk-vc.com" target="_blank">mk-vc.com</a></h4>
+                        <p class="info__date">November 2021 - Februar 2022, München</p>
+                        <p class="info__description">Redesing der Seite</p>
+                        <p class="info__description">Erweiterung durch Finanzcharts mit chart.js</p>
+                    </div>
+                    <div class="info__section">
+                        <h4 class="info__title">Wordpresstheme für <a href="https://seelenkraftwerk.at" target="_blank">Seelenkraftwerk.at</a></h4>
+                        <p class="info__date">November 2022 - Mai 2023, München</p>
+                        <p class="info__description">Redesign der Website</p>
+                        <p class="info__description">Entwurf neuer Icons</p>
+                        <p class="info__description">Erweiterung durch Finanzcharts mit chart.js</p>
+                    </div>
+
+                </div>
+            </div>
+ 
+
+        </div>
+    </section>
+    <section class="kontakt__section" id="Kontakt">
+        <div class="kontakt__box">
+        <h2 class="kontakt__title">Kontakt</h2>
+        <div class="adress__box">
+        <p>Michael Titze</p>
+        <p>Margeritenstr. 50</p>
+        <p>82515 Wolfratshausen</p>
+        </div>
+        <p><span>Email: </span>michaeltitze11@gmail.com</p>
+        <p><span>Phone: </span>+4915901382284</p>
+        </div>
+
+    </section>
 
 
     <script src="scrollEffects.js"></script>

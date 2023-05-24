@@ -1,0 +1,35 @@
+.kontakt__section{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: radial-gradient(var(--primary-color),#122448);
+    color: #fefefe;
+}
+
+.kontakt__box{
+    height: 200px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kontakt__title{
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.adress__box{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.adress__box p{
+    text-align: center;
+}
