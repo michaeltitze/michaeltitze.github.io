@@ -150,10 +150,10 @@ menu.li:hover, menu.li:hover > a{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 120px;
+        height: 200px !important;
         width: 100%;
         text-align: center !important;
-        padding-bottom: 40px;
+        padding-bottom: 40px !important;
         transition: all 0.2s ease-in-out;
         animation-delay: 500ms;
     }
