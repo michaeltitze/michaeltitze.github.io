@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,2.84217e-14,20.4981)">
+        <g id="Eule">
+            <g id="Augen" transform="matrix(1,0,0,1,0.817678,0)">
+                <g id="Auge-Rechts" serif:id="Auge Rechts" transform="matrix(0.827212,0,0,0.950956,147.079,62.1983)">
+                    <circle cx="161.139" cy="127.686" r="27.198" style="stroke:black;stroke-width:4.49px;"/>
+                </g>
+                <g id="Auge-Links" serif:id="Auge Links" transform="matrix(0.77767,0,0,0.894003,-8.671,71.0194)">
+                    <circle cx="161.139" cy="127.686" r="27.198" style="stroke:rgb(0,8,1);stroke-width:4.77px;"/>
+                </g>
+            </g>
+            <g id="Schnabel" transform="matrix(1.92751,0,0,1.5962,-187.997,-68.1297)">
+                <path d="M201.294,171.982L218.817,209.389L201.294,246.795L183.771,209.389L201.294,171.982Z" style="fill:white;stroke:black;stroke-width:2.26px;"/>
+            </g>
+            <g transform="matrix(5.32968,-1.64171,1.45144,6.22717,-809.919,-240.368)">
+                <path d="M142.652,82.209L150.651,93.912L134.652,93.912L142.652,82.209Z" style="fill:white;stroke:black;stroke-width:0.69px;"/>
+            </g>
+            <g transform="matrix(-5.32968,-1.64171,-1.45144,6.22717,1212.36,-244.533)">
+                <path d="M142.652,82.209L150.651,93.912L134.652,93.912L142.652,82.209Z" style="fill:white;stroke:black;stroke-width:0.69px;"/>
+            </g>
+            <g transform="matrix(1.91673,0,0,1.72754,-185.491,-46.8563)">
+                <path d="M201.119,150.715C191.451,161.681 187.186,182.323 161.889,182.323C128.253,182.323 101.119,160.006 101.119,132.518C101.119,105.029 124.516,81.213 163.065,81.213C185.444,81.213 190.965,97.353 201.119,103.6C204.33,101.732 219.718,80.767 243.052,80.767C279.765,80.767 301.119,105.029 301.119,132.518C301.119,160.006 277.693,182.323 236.848,182.323C215.811,182.323 211.601,162.264 201.119,150.715ZM245.561,121.849C227.802,121.849 220.814,127.712 220.814,134.556C220.814,141.399 227.802,146.648 245.561,146.648C263.32,146.648 277.738,141.092 277.738,134.249C277.738,127.405 263.32,121.849 245.561,121.849ZM155.431,121.849C137.672,121.849 123.254,127.405 123.254,134.249C123.254,141.092 137.672,146.648 155.431,146.648C173.19,146.648 181.214,141.399 181.214,134.556C181.214,127.712 173.19,121.849 155.431,121.849Z" style="fill:rgb(19,174,46);stroke:black;stroke-width:2.19px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

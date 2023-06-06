@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo-7a6d5739.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Wb Owl</title>
+  <script src="https://kit.fontawesome.com/02fd9dd1c9.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="assets/index-91226a58.css">
+</head>
+
+<body class="font-san flex flex-col items-center">
+  <header class="w-full flex items-center justify-between px-3 py-1 bg-white">
+    <a href="/" data-aos="fade-down" class="logo-container flex gap-4 px-32 items-center">
+      <img class="logo h-16" src="assets/logo-7a6d5739.svg" alt="logo" />
+      <p class="logo-text">WB Owl</p>
+    </a>
+    <nav data-aos="fade-down" class="nav-bar px-32">
+      <ul class="menu flex items-center gap-8">
+        <li><a href="#solution">Lösung</a></li>
+        <li><a href="#referenzen">Referenzen</a></li>
+        <li><a href="#zusammenarbeit">Zusammenarbeit</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a class="border p-3 px-4 rounded-lg bg-blue-700 text-white " href="#kontakt">Jetzt Kontaktieren</a></li>
+      </ul>
+    </nav>
+   <div class="menu-toggle flex-col items-between justify-between w-[40px] h-[25px] hidden cursor-pointer" onclick="toggleMenu()">
+    <div class="line w-full h-[4px] bg-blue-700 rounded-full"></div>
+    <div class="line w-full h-[4px] bg-blue-700 rounded-full"></div>
+    <div class="line w-full h-[4px] bg-blue-700 rounded-full"></div>
+   </div>
+  </header>
+
+  <div class="wrapper mx-auto max-w-screen-2xl px-8">
+    <section class="hero-section h-full w-full flex items-start" id="hero">
+      <div class="hero-section__wrapper flex items-center justify-center mt-[100px]">
+        <div class="hero-section__wrapper-headline flex flex-col w-[60%] flex-wrap items-center justify-start h-full ">
+          <div data-aos="fade-right" class="hero-section__text flex flex-col ">
+            <h1 class="text-black text-6xl font-sans font-light"><span class="text-4xl">(Heimlicher) </span><br /><span
+                class="text-blue-800 font-normal" id="headline-text"></span><span class="font-normal">
+                Missbrauch</span><br /> am Arbeitsplatz ist ein <span class="font-normal">großes Problem</span>…</h1>
+            <p class="mt-4">…nicht nur für die Opfer selbst. Das ganze Unternehmen leidet daraunter. Langfristig.</p>
+          </div>
+
+          <div data-aos="fade-up" class="hero-section__solution-wrapper  w-full flex flex-col items-start mt-2 ">
+            <div class="hero-section__solution-box">
+              <p class="font-medium mt-8">Wie lösen wir das Problem?</p>
+              <div class="hero-section__button-container mt-4">
+                <a href="#kontakt"><button class=" bg-blue-700 text-white  rounded-full px-6 h-12 hover:bg-blue-600 font-medium">Jetzt gratis Beratung
+                  anfordern.</button></a>
+                <a href="#mehr-erfahren"><button
+                  class="border-2 border-[#13AE2E] h-12 px-6 hover:bg-[#13AE2E] hover:text-white rounded-full  text-green-700 font-medium ease-in-out">Mehr
+                  erfahren</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" class="hero-section__wrapper-image w-[25%]">
+          <img src="assets/Eule-1-No-Background-bb32d071.png"  alt="Eule">
+        </div>
+
+      </div>
+
+    </section>
+  </div>
+    <div class="wrapper mx-auto max-w-7xl px-8">
+
+    <section class="statistic-section flex flex-col items-center" id="mehr-erfahren">
+      <h2 data-aos="fade-up" class="text-4xl my-16 text-center font-medium">Welche Arten von Missbrauch am Arbeitsplatz gibt es?</h2>
+      <div class="statistic-section__wrapper flex justify-between px-8 gap-8 w-[100%] mx-auto py-8 text-center">
+
+      <div class="statistic flex-1 flex  w-[100%] items-end">
+        <div class="flex w-[100%] flex-wrap" >
+          
+        <div data-aos="fade-right" class="w-[48%]">
+          
+         
+        <div class="statistic-1-charts flex flex-col gap-1 justify-between items-start  w-[100%] min-w-[350px] h-[500px]  text-start">
+          <p>Mobbing/Diskriminierung</p>
+          <div class="barchart w-[calc(140%/100*68)] h-[35px] bg-blue-700 rounded-full flex items-center justify-end pr-2 text-white">68%</div>
+          <p>Betrug</p>
+          <div class="barchart w-[calc(140%/100*65)] h-[35px] bg-blue-700 rounded-full flex items-center justify-end pr-2 text-white">65%</div>
+          <p>Diebstahl von Firmeneigentum</p>
+          <div class="barchart w-[calc(140%/100*59)] h-[35px] bg-blue-700 rounded-full flex items-center justify-end pr-2 text-white">59%</div>
+          <p>Veruntreuung</p>
+          <div class="barchart w-[calc(140%/100*53)] h-[35px] bg-blue-700 rounded-full flex items-center justify-end pr-2 text-white">53%</div>
+          <p>Steuerhinterziehung</p>
+          <div class="barchart w-[calc(140%/100*46)] h-[35px] bg-blue-700 rounded-full flex items-center justify-end pr-2 text-white">46%</div>
+          <p>Illegale IT-Praktiken</p>
+          <div class="barchart w-[calc(140%/100*37)] h-[35px] bg-blue-700 rounded-full flex items-center justify-end pr-2 text-white">37%</div>
+          <p>Verstoß gegen Vorschriften/Regulairen</p>
+          <div class="barchart w-[calc(140%/100*32)] h-[35px] bg-blue-700 rounded-full flex items-center justify-end pr-2 text-white">32%</div>
+        </div>
+      </div>
+      <div data-aos="fade-left" class="w-[48%] pl-8 flex items-center justify-start flex-col min-w-[350px]">
+       <h3 class="text-2xl mb-16 text-center font-medium">Welche Konsequenzen hat das für Unternehmen?</h3> 
+       <div class="text-center">
+          
+          
+          <ul class="text-start mx-auto leading-10 text-[20px] flex-col justify-between h-full relative hidden">
+            <li><i class="fa-solid fa-triangle-exclamation mx-4"></i>Reputationsverlust</li>
+            <li><i class="fa-solid fa-triangle-exclamation mx-4"></i>Rechtstreitigkeiten</li>
+            <li><i class="fa-solid fa-triangle-exclamation mx-4"></i>Interne Unruhe</li>
+            <li><i class="fa-solid fa-triangle-exclamation mx-4"></i>Verlust von Fachkräften</li>
+            <li><i class="fa-solid fa-triangle-exclamation mx-4"></i>Imageprobleme</li>
+            <li><i class="fa-solid fa-triangle-exclamation mx-4"></i>Regulatorische Untersuchungen</li>
+            <li><i class="fa-solid fa-triangle-exclamation mx-4"></i>Störung der Betrieblichen Abläufe</li>
+          </ul>
+  
+          <div class="image-wrapper flex justify-end">
+          <img class="w-[95%]" src="assets/konsequenzen-249ae691.png" alt="Konsequenzen"/>
+          
+          </div>
+
+        </div>
+      </div>
+   
+   
+      </div>
+    </div>
+
+
+      </div>
+    </section>
+
+
+    <section id="solution" class="problem flex flex-col items-center my-16  ">
+      <h2 data-aos="fade-up" class="text-4xl text-green-700 font-normal">Wie würde es sich lanfristig auf Ihr Unternehmen auswirken, wenn:</h2>
+
+      <div>
+
+      <ul class="leading-10 text-2xl mt-16 mb-8">
+        <li data-aos="fade-up">
+          <i class="fa-solid fa-check text-[#13AE2E] font-normal text-lg mx-3"></i>ein öffentlicher Image Schaden vermieden werden kann?
+
+        </li>
+        <li data-aos="fade-up">
+          <i class="fa-solid fa-check text-[#13AE2E] text-lg mx-3"></i>so die Teamfähigkeit und Produktivität in Ihrem Unternehmen erhöht werden kann?
+        </li>
+        <li data-aos="fade-up">
+          <i class="fa-solid fa-check text-[#13AE2E] text-lg mx-3"></i>die Reputation Ihres Unternehmens bewahrt bleiben kann?
+        </li>
+        <li data-aos="fade-up">
+          <i class="fa-solid fa-check text-[#13AE2E] text-lg mx-3"></i>interne Unruhen in Ihrem Unernehmen vermieden würden?
+        </li>
+        <li data-aos="fade-up">
+          <i class="fa-solid fa-check text-[#13AE2E] text-lg mx-3"></i>Ihnen Kosten für Rechtsstreitigkeiten erspart blieben.
+        </li>
+        <li data-aos="fade-up">
+          <i class="fa-solid fa-check text-[#13AE2E] text-lg mx-3"></i>Ihnen Ihre Fachkräfte erhalten bleiben?
+        </li>
+        <li data-aos="fade-up">
+          <i class="fa-solid fa-check text-[#13AE2E] text-lg mx-3"></i>Ihr Betrieb im Unternehmen weiterhin reibungslos abläuft?
+        </li>
+      </ul>
+
+      </div>
+
+    
+    </section>
+
+    <section class="method-section px-4 mb-32" id="methode">
+      <div class="method-section__container mx-auto">
+        <div class="metho-section__solution w-[60%] mx-auto">
+      <h2 data-aos="fade-up" class="text-4xl text-center mb-12 font-medium">Unsere Lösung</h2>
+      
+     <p data-aos="fade-up" >In allen EU Mitgliedsstaaten werden Unternehmen mit mehr als 50 Mitarbeitenden sowie die meisten Behörden gesetzlich verpflichtet, ein Whistleblowing System einzurichten. Dieses System ermöglicht es Mitarbeitenden, Gesetzesverstöße sowie weitere Missstände und wichtige Themen innerhalb des Unternehmens zu melden.</p>
+
+        </div>
+
+        <div class="method-section__whistleblower-wrapper flex flex-col mt-32 gap-10">
+     
+  
+          <div class="method-section__explanation-section flex items-start justify-evenly w-[95%] gap-20 mx-auto">
+
+          <div class="method-section__whistleblower-text w-[50%]">
+
+          <h3 data-aos="fade-up" class="text-2xl font-medium my-3">Was ist ein Whistlebower System?</h3>
+            <p data-aos="fade-up" class="">Ein Whistleblowing-System ist ein System, über das Mitarbeitende in einem Unternehmen aufgetretene oder laufende Verstöße melden können. Mitarbeitende können Vorfälle vertraulich oder anonym melden. Die Berichterstattung erfolgt über einen sicheren Meldekanal, um alle Informationen zu schützen.
+           
+              Das System ist meistens eine Online-Lösung, entweder eine Webseite oder ein anonymes Postfach, das von den anderen Kommunikationskanälen des Unternehmens getrennt ist. Auf diese Weise wird die Anonymität und Vertraulichkeit der Informationen des Mitarbeitenden gewährleistet.</p>
+          </div>
+
+          <div class="method-section__whistleblower-image w-[50%] flex items-center justify-center">
+            <div class="img-container w-[99%] flex justify-start">
+            <img data-aos="fade-left" class="w-[90%]" src="assets/whistleblowing-intern-a4bd86cf.svg" alt="Grafik">
+              </div>
+           </div>
+
+           </div>
+
+
+           <a href="#kontakt" class="mx-auto my-16 w-full flex justify-center"><button class=" bg-blue-700 text-white rounded-full px-12 h-16 text-[20px] hover:bg-blue-600 font-medium">Jetzt gratis Beratung
+            anfordern.</button></a>
+  
+    <div class="method-herausforderungen flex flex-wrap w-[80%] mx-auto">
+      <div class="w-full">
+        <h3 data-aos="fade-up" class="text-4xl font-medium text-center my-16">Herausforderungen für Unternehmen</h3>
+        <p data-aos="fade-up" class="text-center mb-8">Welche Risiken und Herausforderungen enstehen bei einer ausschließlich internen Handhabung des Whistleblowingprozesses?</p>
+        <ul>
+          <li data-aos="fade-up">
+            <h4  class="text-lg font-medium mt-4">
+              <i class="fa-solid fa-triangle-exclamation text-red-500 mr-2"></i>Mangelnde Anonymität und Vertraulichkeit
+            </h4>
+            <p>Wenn Mitarbeiter ihre Berichte intern einreichen, besteht die Möglichkeit, dass ihre Identität offengelegt oder unbeabsichtigt preisgegeben wird. Dies kann dazu führen, dass Mitarbeiter zögern, Missstände zu melden, aus Angst vor Repressalien oder negativen Auswirkungen.</p>
+          </li>
+
+          <li data-aos="fade-up">
+            <h4 class="text-lg font-medium mt-4">
+              <i class="fa-solid fa-triangle-exclamation text-red-500 mr-2"></i>Interessenkonflikte:
+            </h4>
+            <p>Interner Whistleblowing kann mit Interessenkonflikten verbunden sein. Mitarbeiter könnten Bedenken haben, ihre Vorgesetzten oder Kollegen zu belasten, insbesondere wenn diese an den gemeldeten Verstößen beteiligt sind. Dies kann die Objektivität und Effektivität des Prozesses beeinträchtigen.</p>
+          </li>
+
+          <li data-aos="fade-up">
+            <h4 class="text-lg font-medium mt-4">
+              <i class="fa-solid fa-triangle-exclamation text-red-500 mr-2"></i>Mangelnde Unabhängigkeit und Glaubwürdigkeit:
+            </h4>
+            <p>Die interne Bearbeitung von Whistleblower-Berichten kann Zweifel an der Unabhängigkeit und Glaubwürdigkeit des Prozesses aufkommen lassen. Mitarbeiter könnten skeptisch sein, ob ihre Berichte angemessen und fair behandelt werden, insbesondere wenn es um potenzielle Fehlverhalten von Führungskräften oder einflussreichen Mitarbeitern geht.</p>
+          </li>
+
+          <li data-aos="fade-up">
+            <h4 class="text-lg font-medium mt-4">
+              <i class="fa-solid fa-triangle-exclamation text-red-500 mr-2"></i>Einschränkung der internen Ressourcen:
+            </h4>
+            <p>Die interne Integration des Whistleblowing-Prozesses erfordert zusätzliche Ressourcen, wie zum Beispiel geschultes Personal und technologische Infrastruktur, um Berichte zu empfangen, zu überprüfen und zu bearbeiten. Dies kann eine Belastung für das interne Personal darstellen und von ihren regulären Aufgaben ablenken.</p>
+          </li>
+
+          <li data-aos="fade-up">
+            <h4 class="text-lg font-medium mt-4">
+              <i class="fa-solid fa-triangle-exclamation text-red-500 mr-2"></i>Potenzielle rechtliche und regulatorische Risiken:
+            </h4>
+            <p>Wenn der interne Whistleblowing-Prozess nicht ordnungsgemäß gestaltet ist oder nicht den rechtlichen und regulatorischen Anforderungen entspricht, besteht das Risiko von rechtlichen Konsequenzen. Unternehmen müssen sicherstellen, dass sie über das erforderliche Fachwissen verfügen, um den Prozess angemessen zu verwalten und sicherzustellen, dass gemeldete Verstöße untersucht und behandelt werden.</p>
+          </li>
+
+
+
+        </ul>
+      </div>
+
+     </div>
+
+     <div class="method-herausforderungen flex flex-col flex-wrap">
+      <h2 data-aos="fade-up" class="text-4xl font-medium text-center my-16">Darum WB-OWL:</h2>
+      <div class="method-section__subsection flex gap-10 ">
+      <div class="method-section__whistleblower-image w-[50%] flex items-center justify-end">
+        <img data-aos="fade-right" class="w-[90%]" src="assets/whistleblowing-extern-bc261b6a.svg" height=200 alt="Grafik">
+  
+       </div>
+      <div class="w-[50%]">
+        
+      <ul>
+        <li data-aos="fade-up">
+          <h4  class="text-lg font-medium mt-4">
+            <i class="fa-solid fa-check text-[#13AE2E] mr-2"></i>Anonymität und Vertraulichkeit:
+          </h4>
+          <p>Durch Zusammenarbeit mit WB OWL können Ihre Mitarbeiter sicher sein, dass ihre Identität geschützt bleibt und die Berichte vertraulich behandelt werden.</p>
+        </li>
+
+        <li data-aos="fade-up">
+          <h4 class="text-lg font-medium mt-4">
+            <i class="fa-solid fa-check text-[#13AE2E] mr-2"></i>Unabhängigkeit und Neutralität:
+          </h4>
+          <p>WB OWL agiert unabhängig von internen Interessen und Hierarchien. Dadurch wird sichergestellt, dass die Berichte objektiv und fair behandelt werden.</p>
+        </li>
+
+        <li data-aos="fade-up">
+          <h4 class="text-lg font-medium mt-4">
+            <i class="fa-solid fa-check text-[#13AE2E] mr-2"></i>Erfahrung und Fachwissen:
+          </h4>
+          <p> WB OWL hat sich auf Whistleblowing spezialisiert und verfügt über das erforderliche Fachwissen und die Erfahrung, um den Prozess effektiv zu gestalten.Wir implementieren bewährte Verfahren und Methoden, um sicherzustellen, dass Berichte ordnungsgemäß bearbeitet werden.</p>
+        </li>
+
+        <li data-aos="fade-up">
+          <h4 class="text-lg font-medium mt-4">
+            <i class="fa-solid fa-check text-[#13AE2E] mr-2"></i> Effektive Ressourcennutzung:
+          </h4>
+          <p>Durch die Auslagerung des Whistleblowing-Prozesses an WB OWL kann das interne Personal entlastet werden. WB OWL übernimmt die Verantwortung für die Überwachung und Verarbeitung der Berichte, was Ihren internen Mitarbeitern ermöglicht, sich auf ihre regulären Aufgaben zu konzentrieren.</p>
+        </li>
+
+        <li data-aos="fade-up">
+          <h4 class="text-lg font-medium mt-4">
+            <i class="fa-solid fa-check text-[#13AE2E] mr-2"></i>Rechtliche und regulatorische Einhaltung: 
+          </h4>
+          <p>WB Owl kann sicherstellen, dass der Prozess den geltenden rechtlichen und regulatorischen Anforderungen entspricht. Dadurch bleib ihr Unternehmen vor möglichen rechtlichen Konsequenzen stärker geschützt und der Prozess kann transparent und fair gestaltet werden.</p>
+        </li>
+
+
+
+      </ul>
+
+      </div>
+    </div>
+     </div>
+
+     </div>
+
+     </div>
+
+    </section>
+    <a href="#kontakt" class="mx-auto my-16 w-full flex justify-center"><button class=" bg-blue-700 text-white rounded-full px-12 h-16 text-[20px] hover:bg-blue-600 font-medium">Jetzt gratis Beratung
+      anfordern.</button></a>
+
+  </div>
+    <section class="testimonial-section mb-16 " id="referenzen">
+      <h2 data-aos="fade-up" class="text-4xl font-medium text-center mb-16">Das sagen Kunden:</h2>
+      <div class="testimonial-section__wrapper">
+        <div data-aos="fade-up" class="testimonial-section__testimonial-container">
+          <div class="testimonial-image"><img src="assets/testimonial-michael-min-3c4e04d6.jpg" alt="Michael">
+          </div>
+          <div class="testimonial-textbox">
+            <p>“Das System und das Unternehmen dahinter sind zuverlässig und erfüllen unsere Erwartungen voll und ganz.
+              Eine großartige und intuitive technische Whistleblower-Plattform zu haben, bringt unserem Unternehmen und
+              unseren Kunden einen großen Nutzen.” </p>
+              <p class="text-green-600 mt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+              <p class="my-2">Michael</p>
+              <p class=""><strong>CEO - DSB Dänemark</strong></p>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="testimonial-section__testimonial-container">
+          <div class="testimonial-image"><img src="assets/testimonial-peter-min-565e1b05.png" alt="Peter"></div>
+          <div class="testimonial-textbox">
+            <p>“Unser vertrauenswürdiger Berater und technische Plattform für die Abwicklung von Kerngeschäften und
+              Personalangelegenheiten. Spart Zeit, Ressourcen und gewährleistet absolute Zuverlässigkeit und
+              Vertraulichkeit.” </p>
+              <p class="text-green-600 mt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+              <p class="my-2">Peter</p>
+              <p class=""><strong>CCO & Partner - Texta ApS</strong></p>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="testimonial-section__testimonial-container">
+          <div class="testimonial-image"><img src="assets/testimonial-andrei-min-bebc3e72.jpeg" alt="Andrei">
+          </div>
+          <div class="testimonial-textbox">
+            <p>“Die Software ist einfach zu bedienen, konform, an die Bedürfnisse des Kunden anpassbar, und wir sind
+              mehr als zufrieden mit der Zusammenarbeit und dem Support, den wir von der Firma dahinter erhalten haben.”
+            </p>
+            <p class="text-green-600 mt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            <p class="my-2">Andrei Georgescu</p>
+            <p class=""><strong>Rechtsanwalt - 360Wettbewerb</strong></p>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="testimonial-section__testimonial-container">
+          <div class="testimonial-image"><img src="assets/testimonial-frederik-min-52bf0bab.jpg" alt=""></div>
+          <div class="testimonial-textbox">
+            <p> “Ein professionelles System zu haben, von dem ich weiß, dass meine Mitarbeiter es problemlos verwenden
+              können, hat einen enormen Wert.“ </p>
+              <p class="text-green-600 mt-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+              <p class="my-2">Frederik</p>
+              <p class=""><strong>CEO - Sandgrav Solutions ApS</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrapper mx-auto max-w-7xl px-8">
+    <section class="ablauf-section w-[75%] mx-auto my-16" id="zusammenarbeit"> 
+
+    <h2 data-aos="fade-up" class="text-4xl text-center font-medium my-16">Zusammenarbeit</h2>
+
+
+      <div data-aos="fade-up" class="flex justify-start items-start gap-4">
+        <img class="w-auto h-[80px]" src="assets/beratung-icon-916492b4.svg" alt="Beratung">
+        <div class="text-box">
+        <h3 class="text-2xl font-medium">1. Beratung</h3>
+        <p class="text-start w-[60%]">Sie erhalten eine Umfangreiche Beratung und ausführliche Vorführung unseres Systems. Unsere Experten sind stets für sie da mit dem Anspruch, alle offenen Fragen zu klären.</p>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="flex justify-start items-start gap-4 my-16">
+        <div class="text-box flex flex-col justify-end items-end">
+        <h3 class="text-2xl font-medium text-end">2. Implementierung</h3>
+        <p class="text-end w-[60%]">Unsere Softwareexperten Implementieren die Software für Sie und integrieren Sie in ihr System, sodass Ihre Mitarbeitenden unabhängig davon weiter ihrem täglichen Geschäft nachgehen können.</p>
+        </div>
+        <img class="w-auto h-[80px]" src="assets/implementierung-icon-6a49a64a.svg" alt="Beratung">
+        </div>
+     
+      <div data-aos="fade-up" class="flex justify-start items-start gap-4">
+        <img class="w-auto h-[80px]" src="/assets/schulung-6dd15d28.svg" alt="Beratung">
+        <div class="text-box">
+        <h3 class="text-2xl font-medium">3. Schulung der Mitarbeiter</h3>
+        <p class="text-start w-[60%]">Unsere Experten schulen Ihre Mitarbeiter, wie sie das System nutzen und welche Rolle unser Team dabei spielt. Natürlich beantworten wir alle Fragen. Auch nach der Schulung stehen wir mit unserem Support bereit.</p>
+        </div>
+      </div>
+
+    </section>
+   
+    <section class="about-section px-8 mx-auto" id="about">
+
+      <h2 data-aos="fade-up" class="text-4xl text-center font-medium mb-16">About</h2>
+
+      <div class="flex">
+      <div data-aos="fade-up" class="w-[48%]">
+        <h3 class="text-3xl mb-4"><span class="softwarenaut-text">WB Owl</span></h3>
+        <p>
+          Wb Owl ist eine Marke der Softwarenaut Gmbh. Unsere Mission ist es Unternehmen zu unterstützen mit unserem Whistleblowingservice. Wir unterstützen Sie bei Compliance-Angelegenheiten und fungieren als Hauptansprechpartner für sämtliche, rechtswidrige Belange innerhalb des Unternehmens. Dadurch bleibt Ihnen viel bsürokratischer und regulatorischer Aufwand erspart. 
+          </p>
+
+      </div>
+
+      <div data-aos="fade-up" class="w-[48%]">
+     <h3 class="text-3xl mb-4"><span class="softwarenaut-text">software</span>naut</h3>
+      <p>Gegründet 2012 in München hat sich die Softwarenaut zu einem festen Bestandteil in der IT-Branche etabliert und ist seit jeher nicht mehr wegzudenken.</p>
+      <p>Softwarenout ist nicht nur spezialisiert auf maßgeschneidet IT-Lösungen. Nein. Sie blicken über den Tellerand hinaus und stellen alle nötigen Rescourcen zur Verfügung um im Hintergrund alle notwendingen Anforderungen abzudecken.</p>
+      <p>Moderne Unternehmenskultur und rundum zufriedene Mitarbeiter Sprechen für sich. (Siehe Kununu) </p>
+      </div>
+      </div>
+    </section>
+
+    <section data-aos="fade-up" class="team-section" id="team">
+      <h2 class="text-center text-4xl font-medium my-16">Team</h2>
+      <div class="team-section__container flex justify-center gap-4 mx-auto w-full">
+        <div class="team-card w-[25%] h-[250px]  rounded-xl flex justify-center items-center shadow-xl hover:scale-105 transition-all">
+        <div class="flex flex-col h-[50%] items-center justify-center ">
+          <img class="rounded-full w-[120px] h-[120px] mb-2" src="assets/bahadur-shah-d8dd0ffb.jpg" alt="Bahadur Shah">     
+          <p class="font-medium text-center">Bahadur Shah</p>
+          <p class="mx-auto text-center">Senior IT- & HR-Expert</p>
+        </div>
+        </div>
+        <div class="team-card w-[25%] h-[250px]  rounded-xl flex justify-center items-center shadow-xl hover:scale-105 transition-all">
+        <div class="flex flex-col h-[50%] items-center justify-center ">
+          <img class="rounded-full w-[120px] h-[120px] mb-2" src="assets/daniel-wolf-b14c8f84.jpeg" alt="Daniel Wolf">
+          <p class="font-medium text-center">Daniel Wolf</p>
+          <p class="mx-auto text-center">Techniacl Lead</p>
+          </div>
+        
+        </div>
+        <div class="team-card w-[25%] h-[250px]  rounded-xl flex justify-center items-center shadow-xl hover:scale-105 transition-all">
+        <div class="flex flex-col h-[50%] items-center justify-center ">
+          <img class="rounded-full w-[120px] h-[120px] mb-2" src="assets/michael-titze-3941ac8d.jpeg" alt="Michael Titze">
+         
+          <p class="font-medium text-center">Michael Titze</p>
+          <p class="mx-auto text-center">Online Marketing</p>
+          </div>
+        </div>
+        <div class="team-card w-[25%] h-[250px]  rounded-xl flex justify-center items-center shadow-xl hover:scale-105 transition-all">
+        <div class="flex flex-col h-[50%] items-center justify-center ">
+          <img class="rounded-full w-[120px] h-[120px] mb-2" src="assets/livia-siripom-0998636a.jpg" alt="Livia Siripom">
+          <p class="font-medium text-center">Liviar Siripom</p>
+          <p class="mx-auto text-center">Consulting</p>
+        </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section data-aos="fade-up" id="kontakt" class="contact-section">
+      <h2  class="text-4xl text-center font-medium mt-20 mb-12">Kontakt</h2>
+      <div class="contact-section__wrapper mx-auto flex justify-evenly items-start h-[100%]  bg-[#13AE2E] rounded-xl p-12 gap-4">
+
+
+        <div class="cta w-[40%] h-[90%] rounded-lg  text-white flex flex-col ">
+          <h3 class="text-6xl text-white mb-8">Worauf warten Sie noch? </h3>
+          <p>Füllen Sie direkt das Kontaktformular aus und klicken Sie auf den Senden-Button! wir melden uns umgehend bei Ihnen!</p>
+          <p>Wir freuen uns auf Ihre Anfrage!</p>
+          <div class="flex gap-10 mt-8 p-8 rounded-lg  border-2 border-green-200">
+            <div class="w-[30%]">
+              <img class="rounded-full border-2 border-white" src="assets/bahadur-shah-d8dd0ffb.jpg" alt="Bahadur">
+            </div>
+            <div class="w-[70%] flex items-start flex-col justify-center"><p>Oder direkt bei Softwarenaut:</p>
+              <p>Support@softwarenaut.de</p>
+            <p><a href="tel:+4989123456">+4989123456</a></p></div>
+          </div>
+        </div>
+
+        <form class="flex flex-col gap-3 w-[400px] " action="">
+          <input class="border-2 outline-none border-none p-3 rounded-lg focus:outline-none focus:bg-green-100" type="text" placeholder="Name">
+          <input class="border-2  border-none p-3 rounded-lg focus:outline-none focus:bg-green-100"  type="text" placeholder="Email">
+          <input class="border-2  border-none p-3 rounded-lg focus:outline-none focus:bg-green-100"  type="tel" placeholder="Phone">
+          <textarea class="border-2 border-none p-3 rounded-lg focus:outline-none focus:bg-green-100" type="text" id="" cols="30" rows="10"></textarea>
+          <input class="bg-white p-3 rounded-lg text-[#13AE2E] text-[16px] text-lg hover:bg-blue-600 hover:text-white cursor-pointer"  type="submit" value="Senden">
+        </form>
+
+      </div>
+    </section>
+
+    <section data-aos="fade-up" class="faq-section w-[60%] mx-auto flex flex-col justify-center items-center mt-16" id="faq">
+      <h2 class="text-center text-4xl font-medium mb-16">FAQ</h2>
+      <div class="accordion w-[100%] px-1 sm:w-[100%] mx-auto" id="accordion">
+        <h3>Warum sollte man mit den Experten von WB Owl zusammenarbeiten?</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Wievel kostet die Zusammenarbeit mit WB Owl?</h3>
+        <div>
+          <p>
+          Unsere Preise sind Individuell und auf unsere Kunden abgestimmt. Kontaktieren Sie uns gerne für ein Persönliches Beratungsgespräch.
+          </p>
+        </div>
+        <h3>Frage 3</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+         
+        </div> 
+
+        <h3>Frage 4</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+         
+        </div> 
+        <h3>Frage 5</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+         
+        </div> 
+
+      </div>
+       
+
+    </section>
+
+  </div>
+
+  <footer class="h-32 flex items-center justify-between">
+    <p><a href="/">Impressum</a> | <a href="/">Datenschutz</a></p>
+  </footer>
+  <script src="js/hero.js"></script>
+  <script src="js/accordion.js"></script>
+  <script>AOS.init({duration:1000})</script>
+  <script src="js/nav.js"></script>
+
+</body>
+
+</html>
