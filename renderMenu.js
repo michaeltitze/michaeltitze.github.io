@@ -4,8 +4,6 @@ let navLogo = '<a class="logo-text" href="https://michaeltitze.github.io/#Home">
 let navMenu = '<ul class="menu">';
 
 
-
-
 const renderMenu = () => {
     const menuItems = ['Home','Lebenslauf', 'Kontakt'];    
     for(let i=0; i<menuItems.length; i++){
